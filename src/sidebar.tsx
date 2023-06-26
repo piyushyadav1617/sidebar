@@ -17,7 +17,7 @@ const Sidebar = () => {
     <div className={`flex flex-col flex-shrink-0 items-center text-white mr-10 bg-black ${open? "w-full sm:w-[18rem]": "w-[4rem] "} h-[100vh] transition`}>
 
         <div className={`flex ${open? "justify-end": "justify-center"} w-full`}>
-        <button className="px-2 pt-1" onClick={() => setOpen(!open)}>{open ? '<<<' : '>>>'}</button>
+        <button className="px-2 pt-1 hover:text-[#9EFF00]" onClick={() => setOpen(!open)}>{open ? '<<<' : '>>>'}</button>
         </div>
         
 
