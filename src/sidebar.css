@@ -1,0 +1,9 @@
+/* width: 21.3125rem;
+height: 56.25rem;
+flex-shrink: 0; */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,500&family=Poppins&family=Roboto:wght@500&display=swap");
+* {
+  /* box-sizing: border-box; */
+  /* color: #fff; */
+  font-family: "Poppins", sans-serif;
+}
